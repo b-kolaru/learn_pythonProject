@@ -4,7 +4,7 @@ def days_to_unit(num_of_days, unit):
     elif unit == "minutes":
         return f"{num_of_days} days equals: {num_of_days * 24 * 60} {unit}"
 
-    
+
 def validate_and_evaluate():
     try:
 
@@ -13,7 +13,7 @@ def validate_and_evaluate():
             calculate_hours = days_to_unit(user_input_num, user_element_dict["conversion_unit"])
             print(calculate_hours)
         elif user_input_num == 0:
-            print(f"Please enter a number other than Zero")
+            print("Please enter a number other than Zero")
             
     except ValueError:
         print("Please enter a valid number")
