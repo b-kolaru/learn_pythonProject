@@ -14,7 +14,6 @@ def validate_and_evaluate():
             print(calculate_hours)
         elif user_input_num == 0:
             print("Please enter a number other than Zero")
-            
     except ValueError:
         print("Please enter a valid number")
 
